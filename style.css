@@ -17,7 +17,7 @@
 
 .sub-menu>i {
   padding-left: 50px;
-  color: white;
+  color: #fdfcfa;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -29,6 +29,7 @@
   padding: 0px 0px 0px 200px;
   height: auto;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .searchbar {
@@ -117,10 +118,11 @@ body {
   float: left;
   background-color: white;
   width: 200px;
-  height: 500px;
+  height: 550px;
   margin-left: 200px;
   box-shadow: black -1px 1px 20px -15px;
 }
+
 .leftContainer {
   float: right;
   background-color: white;
@@ -130,11 +132,71 @@ body {
   margin-right: 80px;
   box-shadow: black -1px 1px 20px -15px;
 }
+
 .centerContainer {
   float: left;
-  background-color: white;
+  background-color: #F5F5F5;
   width: 650px;
-  height:500px;
+  height: 100%;
   margin-left: 20px;
+}
+
+.post {
+  width: 630px;
+  height: 600px;
+  background-color: white;
   box-shadow: black -1px 1px 20px -15px;
+  margin: 0xp 0px 10x 0px;
+  padding: 15px;
+}
+
+.partitionsl {
+  float: left;
+  height: 100%;
+}
+
+.partitionsc {
+  float: left;
+}
+
+.partitionsr {
+  float: right;
+  height: 100%;
+}
+.content {
+  padding: 16px;
+}
+/*This code makes navbar sticky*/
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+} */
+.info{
+  display: inline-block;
+  font-family: sans-serif;
+  cursor: pointer;
+  
+}
+.info > .name > h3 > a{
+  color: black; 
+  text-decoration: none;
+}
+.info > .name > h3 > a:hover{
+  color: #0085C8; 
+  text-decoration: underline;
+}
+.postProfile{
+  border-radius: 50%;
+  height: 80px;
+}
+.name{
+  width: 500px;
+  margin-left: 10px;
+}
+.btn:hover{
+  background-color: #666666;
 }
