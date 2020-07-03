@@ -1,0 +1,140 @@
+.sub-menu {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sub-menu .menu-title {
+  display: block;
+  margin: 0px auto 0px 40px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.6rem;
+  font-family: sans-serif;
+}
+
+.sub-menu>i {
+  padding-left: 50px;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navigation {
+  width: 100%;
+  display: inline-block;
+  background-color: #283E4A;
+  padding: 0px 0px 0px 200px;
+  height: auto;
+  justify-content: center;
+}
+
+.searchbar {
+  margin: 19px auto auto 10px;
+  float: left;
+  padding-left: 20px;
+  /* background-image: url('./search.png');
+    background-repeat: no-repeat; */
+  justify-content: center;
+}
+
+.icon {
+  float: left;
+}
+
+body {
+  margin: 0px;
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+.dropspan {
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+.show {
+  display: block;
+}
+
+.Profile {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.try>a {
+  color: #DCB779;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.try>a:hover {
+  text-decoration: underline;
+}
+
+.try {
+  margin-top: 20px;
+  padding-left: 100px;
+  width: auto;
+}
+
+.rightContainer {
+  float: left;
+  background-color: white;
+  width: 200px;
+  height: 500px;
+  margin-left: 200px;
+  box-shadow: black -1px 1px 20px -15px;
+}
+.leftContainer {
+  float: right;
+  background-color: white;
+  width: 340px;
+  height: 600px;
+  margin-left: 20px;
+  margin-right: 80px;
+  box-shadow: black -1px 1px 20px -15px;
+}
+.centerContainer {
+  float: left;
+  background-color: white;
+  width: 650px;
+  height:500px;
+  margin-left: 20px;
+  box-shadow: black -1px 1px 20px -15px;
+}

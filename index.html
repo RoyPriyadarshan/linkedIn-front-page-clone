@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>LinkedIn Assignment</title>
+    <link style="color: #0077B5;" href="favicon.png" rel="icon" type="image/x-icon" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">    
+            <img alt="LinkedIn logo" src="brand.png" height="35px" width="35px" style="display: block; float: left; margin: 19px auto auto 10px; background-color: white; border-radius: 5px;">
+            <input type="text" class="searchbar" placeholder="Search" style="border-radius:3px; width: 200px; height: 30px; color: black;">
+            <ul class="icon">
+                <div class="sub-menu"><i class="fa fa-home fa-lg" aria-hidden="true"></i><span class="menu-title">Home</span></div>
+                <div class="sub-menu"><i class="fa fa-users fa-lg" aria-hidden="true"></i><span class="menu-title">My Network</span></div>
+                <div class="sub-menu"><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i><span class="menu-title">Jobs</span></div>
+                <div class="sub-menu"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><span class="menu-title">Messaging</span></div>
+                <div class="sub-menu"><i class="fa fa-bell fa-lg" aria-hidden="true"></i><span class="menu-title">Notification</span></div>
+            </ul>
+            <div class="dropdown" style="float: left;">
+                <img src="profile.png" alt="Profile Picture" class="Profile"> 
+                <div>
+                    <span onclick="myFunction()" class="dropspan">Me <i class="fa fa-caret-down dropspan"></i></span>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-menu" style="float: left;">
+                <i class="fa fa-th fa-lg dropspan" onclick="myFunction()"  style="margin-top: 20px;"></i><span class="menu-title">Work  <i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            </div>
+            <div class="try">
+                <a href="#">
+                    Try Premium Free for 1 Month
+                    </a>
+            </div>
+        </div>
+        <div>
+            <i class="fa "></i>
+        </div>
+
+
+        <div class="feed">
+            <div class="rightContainer">
+
+            </div>
+            <div class="centerContainer"></div>
+            <div class="centerContainer"></div>
+            <div class="centerContainer"></div>
+            <div class="leftContainer">
+
+            </div>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
